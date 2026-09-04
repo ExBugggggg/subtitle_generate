@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-server/
+
+# Local speech-recognition engine and model files
+tools/whisper.cpp/
+models/*
+!models/.gitkeep
+
+# Runtime uploads, extracted audio, and generated subtitles
+runtime/*
+!runtime/.gitkeep
+
+.env
+.env.local
+*.log
+.DS_Store
